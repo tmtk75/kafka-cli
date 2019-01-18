@@ -1,0 +1,4 @@
+.*.swp
+kafka-cli
+kafka-cli.yaml
+build

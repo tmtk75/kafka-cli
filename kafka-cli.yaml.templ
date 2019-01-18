@@ -1,0 +1,19 @@
+profile: dev
+profiles:
+  dev:
+    tls-insecure: false
+    topic: your-topic-name
+    hosts:
+      - kafka-1.example.com:9093
+      - kafka-2.example.com:9093
+    data-cert: |
+      -----BEGIN CERTIFICATE-----
+      your cert
+      -----END CERTIFICATE-----
+      -----BEGIN RSA PRIVATE KEY-----
+      your key
+      -----END RSA PRIVATE KEY-----
+    ca-cert: |
+      -----BEGIN CERTIFICATE-----
+      your ca cert
+      -----END CERTIFICATE-----
